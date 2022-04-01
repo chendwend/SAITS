@@ -1,7 +1,7 @@
 # generate physio2012 dataset
 python gene_PhysioNet2012_dataset.py \
   --raw_data_path RawData/Physio2012_mega/mega \
-  --outcome_file_path ../data/Physio2012_mega/mega_outcomes.txt \
+  --outcome_file_path RawData/Physio2012_mega/mega_outcomes.txt \
   --dataset_name physio2012_45feats \
   --saving_path ../generated_datasets
 

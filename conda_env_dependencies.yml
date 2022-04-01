@@ -201,7 +201,7 @@ dependencies:
     - astunparse==1.6.3
     - colorama==0.4.4
     - contextlib2==0.6.0.post1
-    - cvxpy==1.1.12
+    - cvxpy==1.2.0
     - decorator==4.4.2
     - ecos==2.0.7.post1
     - filelock==3.0.12
