@@ -8,7 +8,8 @@ import pandas as pd
 def verify_dir(dir):
     if not os.path.exists(dir):
         os.makedirs(dir)
-    
+
+
 def return_seq_indexes(df, seq_len=96, win_len=96, res=15, verbose=0):
     """locates sequences in the data and retuns list of indexes where each sequence starts"""
 
@@ -65,7 +66,7 @@ def add_const_mask(X, rate, set_name, mode="COD"):
             mask, axis=(0, 1)
         )
         data_dict = {
-            "X": X,
+            "X": X[:1024,],
             "empirical_mean_for_GRUD": empirical_mean_for_GRUD,
         }
     else:
@@ -83,10 +84,10 @@ def add_const_mask(X, rate, set_name, mode="COD"):
         indicating_mask = ((~np.isnan(X_hat)) ^ (~np.isnan(X))).astype(np.float32)
 
         data_dict = {
-            "X": X,
-            "X_hat": X_hat,
-            "missing_mask": missing_mask,
-            "indicating_mask": indicating_mask,
+            "X": X[:256,],
+            "X_hat": X_hat[:256,],
+            "missing_mask": missing_mask[:256,],
+            "indicating_mask": indicating_mask[:256,],
         }
 
     return data_dict
@@ -141,7 +142,7 @@ def add_artificial_mask(X, artificial_missing_rate, set_name):
             mask, axis=(0, 1)
         )
         data_dict = {
-            "X": X,
+            "X": X[:1024,],
             "empirical_mean_for_GRUD": empirical_mean_for_GRUD,
         }
     else:
