@@ -1,0 +1,242 @@
+{
+    "atarot": {
+        "bh_pointid": 7204,
+        "cod_pointid": 4210,
+        "corrupt_data_ind": [
+            [
+                "2021-01-28 00:00",
+                "2021-02-02 00:00"
+            ],
+            [
+                "2021-02-04 00:00",
+                "2021-02-15 14:00"
+            ],
+            [
+                "2021-02-16 20:00",
+                "2021-02-21 14:00"
+            ],
+            [
+                "2021-03-10 20:00",
+                "2021-03-12 08:00"
+            ],
+            [
+                "2021-04-09 21:00",
+                "2021-06-22 16:00"
+            ]
+        ],
+        "end": 1624982400.0,
+        "height": 200,
+        "sensor_num": 2012,
+        "start": 1611482400.0
+    },
+    "begin": {
+        "bh_pointid": 7203,
+        "cod_pointid": 4386,
+        "corrupt_data_ind": [
+            [
+                "2020-11-29 00:00",
+                "2021-02-15 11:00"
+            ]
+        ],
+        "end": "",
+        "height": 300,
+        "sensor_num": 2013,
+        "start": 1608807600.0
+    },
+    "beitGalla": {
+        "bh_pointid": 6712,
+        "cod_pointid": 3436,
+        "corrupt_data_ind": [
+            [
+                "2020-12-16 20:00",
+                "2020-12-21 09:00"
+            ],
+            [
+                "2021-01-01 08:00",
+                "2021-01-04 11:30"
+            ]
+        ],
+        "end": 1618196400.0,
+        "height": 230,
+        "sensor_num": 2014,
+        "start": 1606723200.0
+    },
+    "beitGalla_dom": {
+        "bh_pointid": 6712,
+        "cod_pointid": 3436,
+        "corrupt_data_ind": [
+            [
+                "2020-10-08 00:30",
+                "2020-10-08 00:30"
+            ],
+            [
+                "2020-10-15 10:00",
+                "2020-11-30 11:00"
+            ]
+        ],
+        "end": 1606726800.0,
+        "height": 230,
+        "sensor_num": null,
+        "start": 1586080800.0
+    },
+    "refaim_150": {
+        "bh_pointid": 7201,
+        "cod_pointid": 882,
+        "corrupt_data_ind": [
+            [
+                "2020-12-14 20:00",
+                "2020-12-28 09:00"
+            ],
+            [
+                "2021-01-29 04:00",
+                "2021-02-01 14:45"
+            ],
+            [
+                "2021-02-16 22:00",
+                "2021-02-20 06:00"
+            ],
+            [
+                "2021-03-20 13:00",
+                "2021-04-06 5:00"
+            ]
+        ],
+        "end": 1619686800.0,
+        "height": 350,
+        "rof_pointid": 3226,
+        "sensor_num": 2009,
+        "start": 1606687200.0
+    },
+    "refaim_oil": {
+        "bh_pointid": 6714,
+        "cod_pointid": 882,
+        "corrupt_data_ind": [
+            [
+                "2020-09-02 00:00",
+                "2020-09-07 00:00"
+            ],
+            [
+                "2020-10-09 18:30",
+                "2020-10-14 01:00"
+            ],
+            [
+                "2020-11-02 00:00",
+                "2020-11-30 11:00"
+            ]
+        ],
+        "end": 1604156400.0,
+        "height": 380,
+        "rof_pointid": 3226,
+        "sensor_num": null,
+        "start": 1599080400.0
+    },
+    "sorek": {
+        "bh_pointid": 6713,
+        "cod_pointid": 883,
+        "corrupt_data_ind": [
+            [
+                "2020-10-09 18:30",
+                "2020-10-14 01:00"
+            ],
+            [
+                "2020-11-23 23:00",
+                "2020-11-26 04:30"
+            ],
+            [
+                "2020-12-21 16:00",
+                "2020-12-23 16:00"
+            ],
+            [
+                "2020-02-15",
+                "2020-03-03"
+            ],
+            [
+                "2020-12-10",
+                "2020-12-13"
+            ]
+        ],
+        "end": 1609857000.0,
+        "height": 350,
+        "rof_pointid": 1994,
+        "sensor_num": null,
+        "start": 1600848000.0
+    },
+    "sorek_dom": {
+        "bh_pointid": 6713,
+        "cod_pointid": 883,
+        "corrupt_data_ind": [
+            [
+                "2020-09-03 00:00",
+                "2020-09-08 15:00"
+            ]
+        ],
+        "end": 1600848000.0,
+        "height": 320,
+        "rof_pointid": 1994,
+        "sensor_num": null,
+        "start": 1599120000.0
+    },
+    "sorek_new": {
+        "bh_pointid": 6713,
+        "cod_pointid": 883,
+        "corrupt_data_ind": [],
+        "end": 1610650800.0,
+        "height": 230,
+        "rof_pointid": 1994,
+        "sensor_num": 2010,
+        "start": 1609857000.0
+    },
+    "tara_dom": {
+        "bh_pointid": 6720,
+        "corrupt_data_ind": [],
+        "end": "",
+        "height": 175,
+        "sensor_num": null,
+        "start": ""
+    },
+    "vetrinari": {
+        "bh_pointid": 7253,
+        "cod_pointid": 4067,
+        "corrupt_data_ind": [
+            [
+                "2020-12-12 18:00",
+                "2020-12-29 10:00"
+            ],
+            [
+                "2021-02-24 14:00",
+                "2021-02-27 08:00"
+            ]
+        ],
+        "end": "",
+        "height": 80,
+        "sensor_num": 2011,
+        "start": 1602313200.0
+    },
+    "yokneam": {
+        "bh_pointid": 7616,
+        "cod_pointid": 7631,
+        "corrupt_data_ind": [],
+        "end": "",
+        "height": 140,
+        "sensor_num": null,
+        "start": 1612947600.0
+    },
+    "yokneam_ex": {
+        "bh_pointid": 7616,
+        "cod_pointid": 7614,
+        "corrupt_data_ind": [],
+        "end": "",
+        "height": 140,
+        "sensor_num": null,
+        "start": 1612947600.0
+    },
+    "yokneam_oil": {
+        "bh_pointid": 7615,
+        "cod_pointid": 7614,
+        "corrupt_data_ind": [],
+        "end": "",
+        "height": 140,
+        "rof_pointid": 7616,
+        "sensor_num": null,
+        "start": 1612947600.0
+    }
+}
